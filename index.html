@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Wujdi Mustapha Adam - Web Developer</title>
+  <link rel="stylesheet" href="myweb.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <h1 class="nav-logo">Wujdi Mustapha Adam</h1>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" class="theme-toggle"></button>
+    </div>
+  </nav>
+
+  <section id="home" class="section home">
+    <div class="cursor-follow"></div>
+    <div class="cursor-outline"></div>
+    <div class="blob"></div>
+    <div class="glow"></div>
+    <div class="container">
+      <div class="hero">
+        <img src="Profilepic.jpg" alt="Wujdi Mustapha Adam" class="profile-pic">
+        <h1 class="hero-title"><span class="title-word">Hi, I'm</span> <span class="title-word highlight">Wujdi Mustapha Adam</span></h1>
+        <p class="hero-subtitle">I build <span class="highlight-text">fast, modern web experiences</span></p>
+        <p class="hero-description">Frontend Developer • React • JavaScript • Node.js</p>
+        <a href="#about" class="btn primary magnetic">Let's Work Together</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-left">
+          <img src="Profilepic.jpg" alt="Wujdi Mustapha Adam" class="about-profile-pic">
+          <svg class="about-svg" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#00d9ff;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+              </linearGradient>
+            </defs>
+            <circle cx="150" cy="80" r="35" fill="url(#grad1)" class="svg-shape" />
+            <rect x="80" y="130" width="140" height="100" rx="10" fill="url(#grad1)" class="svg-shape" opacity="0.8" />
+            <circle cx="70" cy="250" r="25" fill="#00d9ff" class="svg-shape" opacity="0.6" />
+            <circle cx="250" cy="200" r="30" fill="#a855f7" class="svg-shape" opacity="0.7" />
+          </svg>
+        </div>
+        <div class="about-right">
+          <div class="about-text fade-in">
+            <p>I'm a 24-year-old web developer from Nigeria, fluent in English and a native Hausa speaker. With a passion for technology and creativity, I specialize in front-end and back-end development.</p>
+            <p>My journey in web development started with a curiosity for how websites work, and it has evolved into a career where I love building interactive and user-friendly applications.</p>
+          </div>
+          <div class="about-info fade-in">
+            <div class="info-item">
+              <h3>📍 Location</h3>
+              <p>Nigeria</p>
+            </div>
+            <div class="info-item">
+              <h3>🗣️ Languages</h3>
+              <p>English (Fluent), Hausa (Native)</p>
+            </div>
+          </div>
+          <div class="skills-section fade-in">
+            <h3>💻 Technical Skills</h3>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span>HTML & CSS</span>
+                <span class="skill-percent">95%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="width: 0%" data-width="95"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span>JavaScript</span>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="width: 0%" data-width="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span>React & Node.js</span>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="width: 0%" data-width="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span>Express.js</span>
+                <span class="skill-percent">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="width: 0%" data-width="80"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section skills">
+    <div class="container">
+      <h2>Skills & Technologies</h2>
+      <div class="skills-container">
+        <div class="skill-pill" data-skill="HTML">HTML</div>
+        <div class="skill-pill" data-skill="CSS">CSS</div>
+        <div class="skill-pill" data-skill="JavaScript">JavaScript</div>
+        <div class="skill-pill" data-skill="React">React</div>
+        <div class="skill-pill" data-skill="Node.js">Node.js</div>
+        <div class="skill-pill" data-skill="Express.js">Express.js</div>
+        <div class="skill-pill" data-skill="Git">Git</div>
+        <div class="skill-pill" data-skill="Responsive Design">Responsive Design</div>
+        <div class="skill-pill" data-skill="Problem Solving">Problem Solving</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card" data-project="Restaurant">
+          <div class="project-image">
+            <img src="Restaurant.png" alt="Restaurant Website">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Restaurant Website</h3>
+            <p class="project-description">A responsive Restaurant website showcasing product menu, Cart, Location and Contact Page with a Link to Whatsapp or any preferred social media or email.</p>
+            <div class="project-buttons">
+              <a href="#" class="btn live-btn">Live</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-project="ecommerce">
+          <div class="project-image">
+            <img src="Ecommerce.png" alt="E-commerce App">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">E-commerce App</h3>
+            <p class="project-description">A full-stack e-commerce application built with React and Node.js featuring user authentication, payment integration, product management, and a modern shopping experience.</p>
+            <div class="project-buttons">
+              <a href="#" class="btn live-btn">Live</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-project="taskmanager">
+          <div class="project-image">
+            <img src="https://via.placeholder.com/400x250/00d9ff/ffffff?text=Task+Manager" alt="Task Manager">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Task Manager</h3>
+            <p class="project-description">A productivity app for managing daily tasks and projects with drag-and-drop functionality and real-time updates.</p>
+            <div class="project-buttons">
+              <a href="#" class="btn live-btn">Live</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <p>I'm always open to discussing new opportunities and interesting projects.</p>
+          <ul>
+            <li>Email: <a href="mailto:Wujdi99@gmail.com">Wujdi99@gmail.com</a></li>
+            <li>Phone: +234 9035127461</li>
+            <li>Location: Nigeria</li>
+          </ul>
+        </div>
+        <form class="contact-form" action="https://formspree.io/f/xyzqwert" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Modal -->
+  <div id="project-modal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <div class="modal-body">
+        <div class="modal-image">
+          <img id="modal-img" src="" alt="">
+        </div>
+        <div class="modal-details">
+          <h2 id="modal-title"></h2>
+          <p id="modal-description"></p>
+          <div class="modal-tech">
+            <h3>Technologies Used:</h3>
+            <div id="modal-tech-list"></div>
+          </div>
+          <div class="modal-links">
+            <a id="modal-live-link" href="#" class="btn primary" target="_blank">View Live</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Sticky CTA -->
+  <div class="mobile-cta-sticky">
+    <a href="#contact" class="btn primary hire-me-btn">Hire Me</a>
+  </div>
+
+  <script src="myweb.js"></script>
+</body>
+</html>
