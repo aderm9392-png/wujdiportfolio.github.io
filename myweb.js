@@ -140,23 +140,7 @@
   const contactForm = document.querySelector('.contact-form');
   if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
-      e.preventDefault();
       // Formspree will handle the submission
-      const formData = new FormData(contactForm);
-      fetch(contactForm.action, {
-        method: 'POST',
-        body: formData,
-        headers: {
-          'Accept': 'application/json'
-        }
-      }).then(response => {
-        if (response.ok) {
-          alert('Thank you for your message! I will get back to you soon.');
-          contactForm.reset();
-        }
-      }).catch(error => {
-        alert('There was an error sending your message. Please try again.');
-      });
     });
   }
 
@@ -376,4 +360,5 @@
     });
   }
 })();
+
 
