@@ -235,11 +235,11 @@
       
     },
     taskmanager: {
-      title: 'Task Manager',
-      description: 'A productivity app for managing daily tasks and projects with drag-and-drop functionality, real-time updates, and an intuitive user interface for better organization.',
-      image: 'https://via.placeholder.com/400x250/00d9ff/ffffff?text=Task+Manager',
-      technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
-      liveLink: '#',
+      title: 'Build in Public',
+      description: 'An interactive case study showing how I think, design, and debug using HTML, CSS, and JavaScript.',
+      image: 'Buildinpublic.png',
+      technologies: ['React', 'Node.js',],
+      liveLink: 'https://wujdi05.github.io/BuildinPublic/',
     }
   };
 
@@ -333,32 +333,9 @@
     addRippleEffect(el);
   });
 
-  // Sticky CTA visibility toggle
-  const stickyCTA = document.querySelector('.mobile-cta-sticky');
-  const hireMeBtn = document.querySelector('.hire-me-btn');
-
-  if (stickyCTA && hireMeBtn) {
-    hireMeBtn.addEventListener('click', (e) => {
-      e.preventDefault();
-      const contactSection = document.getElementById('contact');
-      if (contactSection) {
-        contactSection.scrollIntoView({ behavior: 'smooth' });
-      }
-    });
-
-    // Show/hide sticky CTA based on viewport
-    window.addEventListener('scroll', () => {
-      const contactSection = document.getElementById('contact');
-      if (contactSection) {
-        const rect = contactSection.getBoundingClientRect();
-        if (rect.top < window.innerHeight) {
-          stickyCTA.style.display = 'none';
-        } else {
-          stickyCTA.style.display = 'block';
-        }
-      }
     });
   }
 })();
+
 
 
