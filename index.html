@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="myweb.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <nav class="navbar">
@@ -32,9 +34,11 @@
       <div class="hero">
         <img src="Profilepic.jpg" alt="Wujdi Mustapha Adam" class="profile-pic">
         <h1 class="hero-title"><span class="title-word">Hi, I'm</span> <span class="title-word highlight">Wujdi Mustapha Adam</span></h1>
-        <p class="hero-subtitle">I build <span class="highlight-text">fast, modern web experiences</span></p>
-        <p class="hero-description">Frontend Developer • React • JavaScript • Node.js</p>
-        <a href="#about" class="btn primary magnetic">Let's Work Together</a>
+        <p class="hero-subtitle">I build <span class="highlight-text">high-converting websites for businesses and startups</span></p>
+        <p class="hero-description">Frontend developer specializing in fast, responsive websites, e-commerce platforms, and modern web apps using React and Javascript.</p>
+        <p class="hero-description">Available for freelance work &#8226 Open to remote projects</p>
+        <a href="#about" class="btn primary magnetic">Hire Me</a>
+        <a href="#projects" class="btn secondary magnetic">View Projects</a>
       </div>
     </div>
   </section>
@@ -60,8 +64,10 @@
         </div>
         <div class="about-right">
           <div class="about-text fade-in">
-            <p>I'm a 24-year-old web developer from Nigeria, fluent in English and a native Hausa speaker. With a passion for technology and creativity, I specialize in front-end and back-end development.</p>
-            <p>My journey in web development started with a curiosity for how websites work, and it has evolved into a career where I love building interactive and user-friendly applications.</p>
+            <p>I'm Wujdi Mustapha Adam, a frontend developer who helps businesses and individuals turn ideas into fast, modern websites.</p>
+            <p>I focus on performance, clean UI, and real-world usability - so the websites i build don't just look good, they perform well.</p>
+            <p>I'm passionate about building practical solutions and continuously improving my skills by building in public.</p>
+            <a href="#contact" class="btn primary magnetic"> &#9993; Lets work together</a>
           </div>
           <div class="about-info fade-in">
             <div class="info-item">
@@ -144,7 +150,12 @@
           </div>
           <div class="project-content">
             <h3 class="project-title">Restaurant Website</h3>
-            <p class="project-description">A responsive Restaurant website showcasing product menu, Cart, Location and Contact Page with a Link to Whatsapp or any preferred social media or email.</p>
+            <p class="project-description">A mobile-friendly restaurant website that helps customers browse the menu, place orders and contact the business easily via WhatsApp.</p>
+            <ul class="project-tech-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
             <div class="project-buttons">
               <a href="#" class="btn live-btn">Live</a>
             </div>
@@ -156,7 +167,11 @@
           </div>
           <div class="project-content">
             <h3 class="project-title">E-commerce App</h3>
-            <p class="project-description">A full-stack e-commerce application built with React and Node.js featuring user authentication, payment integration, product management, and a modern shopping experience.</p>
+            <p class="project-description">A full-stack e-commerce platform with authentication, product management and secure checkout, built to simulate a real online store experience.</p>
+            <ul class="project-tech-list">
+              <li>React</li>
+              <li>Node.js</li>
+            </ul>
             <div class="project-buttons">
               <a href="#" class="btn live-btn">Live</a>
             </div>
@@ -169,6 +184,11 @@
           <div class="project-content">
             <h3 class="project-title">Build in Public</h3>
             <p class="project-description">An interactive case study showing how I think, design, and debug using HTML, CSS, and JavaScript.</p>
+            <ul class="project-tech-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
             <div class="project-buttons">
               <a href="https://wujdi05.github.io/BuildinPublic/" class="btn live-btn">Live</a>
             </div>
@@ -183,12 +203,30 @@
       <h2>Contact Me</h2>
       <div class="contact-content">
         <div class="contact-info">
+            <p>I usually reply within 24 hours.</p>
           <p>I'm always open to discussing new opportunities and interesting projects.</p>
-          <ul>
-            <li>Email: <a href="mailto:Wujdi99@gmail.com">Wujdi99@gmail.com</a></li>
-            <li>Phone: +234 9035127461</li>
-            <li>Location: Nigeria</li>
-          </ul>
+          <div class="contact-details">
+            <div class="contact-item">
+              <p><strong>Email:</strong> <a href="mailto:Wujdi99@gmail.com">Wujdi99@gmail.com</a></p>
+            </div>
+            <div class="contact-item">
+              <p><strong>Phone:</strong> +234 9035127461</p>
+            </div>
+            <div class="contact-item">
+              <p><strong>Location:</strong> Nigeria</p>
+            </div>
+          </div>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/wujdi-mustapha-adam-51a0b92b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="LinkedIn Profile">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://x.com/WujdiDev" target="_blank" aria-label="Twitter Profile">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://wa.me/2349035127461" target="_blank" aria-label="WhatsApp">
+              <i class="fa fa-whatsapp"></i>
+            </a>
+          </div>
         </div>
         <form class="contact-form" action="https://formspree.io/f/mzdzgpln" method="POST">
           <input type="text" name="name" placeholder="Your Name" required>
