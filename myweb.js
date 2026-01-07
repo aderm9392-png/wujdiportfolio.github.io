@@ -332,10 +332,8 @@
   document.querySelectorAll('.btn, .skill-pill, .project-card, .skill-item').forEach(el => {
     addRippleEffect(el);
   });
-
-    });
-  }
 })();
+
 
 
 
