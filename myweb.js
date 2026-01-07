@@ -16,10 +16,14 @@
   function setTheme(t) {
     if (t === 'dark') {
       root.setAttribute('data-theme', 'dark');
-      toggle.textContent = '☀️';
-    } else {
-      root.removeAttribute('data-theme');
       toggle.textContent = '🌙';
+      toggle.setAttribute('aria-label', 'Switch to light mode');
+      document.body.style.transition = 'background-color 0.3s ease, color 0.3s ease';
+    } else {
+      root.setAttribute('data-theme', 'light');
+      toggle.textContent = '☀️';
+      toggle.setAttribute('aria-label', 'Switch to dark mode');
+      document.body.style.transition = 'background-color 0.3s ease, color 0.3s ease';
     }
     localStorage.setItem('theme', t);
   }
@@ -333,7 +337,5 @@
     addRippleEffect(el);
   });
 })();
-
-
 
 
