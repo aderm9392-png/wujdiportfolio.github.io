@@ -13,11 +13,11 @@
     <div class="nav-container">
       <h1 class="nav-logo">Wujdi Mustapha Adam</h1>
       <ul class="nav-menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a alt="Home page" href="#home">Home</a></li>
+        <li><a alt="About me page" href="#about">About</a></li>
+        <li><a alt="My skills page" href="#skills">Skills</a></li>
+        <li><a alt="Some of my projects" href="#projects">Projects</a></li>
+        <li><a alt="contact me page" href="#contact">Contact</a></li>
       </ul>
       <button id="theme-toggle" class="theme-toggle"></button>
     </div>
@@ -30,11 +30,11 @@
     <div class="glow"></div>
     <div class="container">
       <div class="hero">
-        <img src="Profilepic.jpg" alt="Wujdi Mustapha Adam" class="profile-pic">
+        <img alt="My profile picture" src="Profilepic.jpg" alt="Wujdi Mustapha Adam" class="profile-pic">
         <h1 class="hero-title"><span class="title-word">Hi, I'm</span> <span class="title-word highlight">Wujdi Mustapha Adam</span></h1>
         <p class="hero-subtitle">I build <span class="highlight-text">fast, modern web experiences</span></p>
         <p class="hero-description">Frontend Developer • React • JavaScript • Node.js</p>
-        <a href="#about" class="btn primary magnetic">Let's Work Together</a>
+        <a alt="About me page" href="#about" class="btn primary magnetic">Let's Work Together</a>
       </div>
     </div>
   </section>
@@ -162,12 +162,12 @@
             </div>
           </div>
         </div>
-        <div class="project-card" data-project="taskmanager">
+        <div class="project-card" data-project="Build in Public">
           <div class="project-image">
-            <img src="https://via.placeholder.com/400x250/00d9ff/ffffff?text=Task+Manager" alt="Task Manager">
+            <img src="https://via.placeholder.com/400x250/00d9ff/ffffff?text=Task+Manager" alt="Build in Public">
           </div>
           <div class="project-content">
-            <h3 class="project-title">Task Manager</h3>
+            <h3 class="project-title">Build in Public</h3>
             <p class="project-description">A productivity app for managing daily tasks and projects with drag-and-drop functionality and real-time updates.</p>
             <div class="project-buttons">
               <a href="#" class="btn live-btn">Live</a>
@@ -191,8 +191,11 @@
           </ul>
         </div>
         <form class="contact-form" action="https://formspree.io/f/xyzqwert" method="POST">
+          <label for="name">Name</label>
           <input type="text" name="name" placeholder="Your Name" required>
+          <label for="email">Email</label>
           <input type="email" name="email" placeholder="Your Email" required>
+          <label for="message">Write Message</label>
           <textarea name="message" placeholder="Your Message" required></textarea>
           <button type="submit" class="btn primary">Send Message</button>
         </form>
@@ -223,11 +226,12 @@
     </div>
   </div>
 
-  <!-- Mobile Sticky CTA -->
+  <!-- Mobile Sticky CTA/ Disabled -->
   <div class="mobile-cta-sticky">
     <a href="#contact" class="btn primary hire-me-btn">Hire Me</a>
   </div>
 
   <script src="myweb.js"></script>
 </body>
+
 </html>
